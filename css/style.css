@@ -18,10 +18,11 @@
         justify-content: space-evenly;
         align-items: center;
         background: rgba(43, 43, 43, 0.315);
+        font-family: 'Rubik', sans-serif;
     }
     
     header {
-        background: rgba(29, 29, 29, 0.247);
+        background:#f8a83f70;
         height: 100px;
         width: 2000px;
         display: flex;
@@ -63,6 +64,8 @@
         height: 400px;
         position: fixed;
         top: 100px;
+        font-family: 'Lora', serif;
+        color: #1b1612;
     }
     
     #link_list {
@@ -71,11 +74,12 @@
         width: 600px;
         justify-content: space-evenly;
         align-items: center;
+        font-family: 'Rubik', sans-serif;
     }
     
     .meny_link {
         text-decoration: none;
-        color: rgb(255, 81, 0);
+        color:#99998f;
         font-size: 1.475rem;
     }
     
@@ -98,13 +102,16 @@
         background: rgba(49, 49, 49, 0.541);
         margin: 9.375rem;
         margin-top: 0;
+        font-family: 'Lora', serif;
     }
     
     .meny_design:hover {
         border: inset orange;
     }
     
-    .meny {}
+    .meny {   
+        font-family: 'Rubik', sans-serif;
+    }
     
     #forratt {
         grid-area: ft;
@@ -149,6 +156,7 @@
         justify-content: center;
         align-items: center;
         text-transform: uppercase;
+        font-family: 'Lora', serif;
     }
     
     .category_header {
