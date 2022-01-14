@@ -4,25 +4,8 @@
         box-sizing: border-box;
     }
     
-    #wrapper {
-        display: grid;
-        height: 70vh;
-        grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr) minmax(300px, 1fr);
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: "ft ht et" "vt ht dr";
-    }
-    
-    #contact_wrapper {
-        height: 30vh;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        background: rgba(43, 43, 43, 0.315);
-        font-family: 'Rubik', sans-serif;
-    }
-    
     header {
-        background:#f8a83f70;
+        background: #f7f6f473;
         height: 100px;
         width: 2000px;
         display: flex;
@@ -33,39 +16,12 @@
         bottom: 0;
     }
     
-    #video_compl {
-        object-fit: cover;
-        width: 100vw;
-        height: 100vh;
-    }
-    
-    body {
-        background: whitesmoke;
-    }
-    
-    #fox_img {
-        height: 200px;
-        width: auto;
-    }
-    
     nav {
         display: flex;
         align-items: center;
         justify-content: right;
         width: 1000px;
         margin-right: 1.25rem;
-    }
-    
-    #home_quote {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100vw;
-        height: 400px;
-        position: fixed;
-        top: 100px;
-        font-family: 'Lora', serif;
-        color: #1b1612;
     }
     
     #link_list {
@@ -79,13 +35,52 @@
     
     .meny_link {
         text-decoration: none;
-        color:#99998f;
+        color: #401c04;
         font-size: 1.475rem;
     }
     
     .meny_link:hover {
         color: black;
         font-weight: bold;
+    }
+    
+    #fox_img {
+        height: 200px;
+        width: auto;
+    }
+    
+    #video_compl {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    #home_quote {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 400px;
+        position: fixed;
+        top: 100px;
+        font-family: 'Lora', serif;
+        color: #bc4504;
+        font-size: 2.5rem;
+    }
+    
+    #food_background {
+        background-image: url(../img/food_background.jpg);
+        background-size: 100%;
+        height: 100vh;
+    }
+    
+    #wrapper {
+        display: grid;
+        height: 70vh;
+        grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr) minmax(300px, 1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "ft ht et" "vt ht dr";
+        font-size: 1.5rem;
     }
     
     .meny_design {
@@ -97,19 +92,20 @@
         height: 25vh;
         position: relative;
         top: 200px;
-        border: 7px double orange;
+        border: 10px double #bc4504;
         border-radius: 8%;
-        background: rgba(49, 49, 49, 0.541);
+        background: #f7f6f473;
         margin: 9.375rem;
         margin-top: 0;
         font-family: 'Lora', serif;
+        color: #02060b;
     }
     
     .meny_design:hover {
-        border: inset orange;
+        border: inset #401c04;
     }
     
-    .meny {   
+    .meny {
         font-family: 'Rubik', sans-serif;
     }
     
@@ -134,20 +130,10 @@
         grid-area: dr;
     }
     
-    #food_background {
-        background-image: url(/img/food_background.jpg);
-        background-size: 100%;
-        height: 100vh;
-    }
-    
     #contact_background {
         background-image: url(../img/resturant_background.jpg);
         background-size: 100%;
         height: 100vh;
-    }
-    
-    .contact {
-        border: 10px double black;
     }
     
     #contact_header {
@@ -157,10 +143,23 @@
         align-items: center;
         text-transform: uppercase;
         font-family: 'Lora', serif;
+        font-size: 2rem;
+        color: #bc4504;
+    }
+    
+    #contact_wrapper {
+        height: 30vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: #02060bd2;
+        font-family: 'Rubik', sans-serif;
+        color: #a3a5a8;
     }
     
     .category_header {
         margin: 1.25rem;
+        font-size: 1.5rem;
     }
     
     .names {
